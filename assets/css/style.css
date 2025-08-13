@@ -583,11 +583,23 @@ section {
     border: 2px solid #0563bb;
 }
 
-.resume a{
-    background: #0563bb;
-    color: #000;
-    padding: 10px;
+.resume a {
+    background: #4B4BC5; /* Soft, vivid purple to match the accent */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
+
+.resume a:hover {
+    background: #3A3AA6; /* Darker shade for hover */
+    color: #E0E0FF; /* Slightly lighter text for effect */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(75, 75, 197, 0.3);
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
